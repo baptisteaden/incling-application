@@ -1,2 +1,1 @@
-release: cd incling && ./manage.py migrate
-web: cd incling && gunicorn incling.wsgi
+web: cd incling && ./manage.py migrate && gunicorn incling.wsgi
